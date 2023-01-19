@@ -19,6 +19,19 @@
     --font-base: "Bai Jamjuree";
 }
 
+/* Dark mode */
+.darkmode {
+    /* background-color: #292929;
+    color: white; */
+    --color-body: #022a30;
+    --color-heading: #033f47;
+    --color-base: #eef3db;
+    --color-base2: #b6cbce;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --color-brand-btn: #3F5576;
+}
+
 body {
     background-color: var(--color-base2);
     color: var(--color-body);

@@ -46,6 +46,27 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
+              <li>
+                <div class="form-check form-switch">
+                    <div class="row">
+                        <div class="col-auto">
+                            <!-- <i class="las la-sun text-warning"></i> -->
+                            <i class="las la-moon text-warning" style="font-size: x-large;"></i>
+                            <input
+                            type="checkbox"
+                            class="form-check-input"
+                            id="checkbox"
+                            onclick="setDarkMode()"
+                            checked
+                            />
+                            <label class="form-check-label text-warning" for="checkbox">
+                                Dark Mode
+                            </label>
+                        </div>
+                    </div>
+                    
+                  </div>
+              </li>
               
             </ul>
           </div>
@@ -433,5 +454,6 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/theme.js"></script>
 </body>
 </html>
