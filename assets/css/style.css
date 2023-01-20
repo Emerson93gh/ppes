@@ -15,6 +15,7 @@
     --color-brand: #e8f1f8;
     --color-brand-btn: #3F5576;
     --color-brand2: #101116;
+    --color-brand3: #e8f1f8;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
@@ -29,6 +30,7 @@
     --color-base2: #b6cbce;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
+    --color-brand3: #2f6133;
     --color-brand-btn: #3F5576;
 }
 
@@ -59,6 +61,12 @@ img {
 
 .text-brand {
     color: var(--color-brand);
+    -webkit-text-stroke: 1px var(--color-brand);
+}
+
+.text-brand2 {
+    color: var(--color-brand3);
+    font-weight: bold;
 }
 
 .full-height {
