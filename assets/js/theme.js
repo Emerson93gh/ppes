@@ -1,7 +1,7 @@
-if(!localStorage.getItem('theme') == 'light') {
+if(localStorage.getItem('theme') == 'dark') {
     setDarkMode();
 
-    if(!document.getElementById('checkbox').checked) {
+    if(document.getElementById('checkbox').checked) {
         localStorage.setItem('checkbox', true);
     }
 }
@@ -12,10 +12,10 @@ function setDarkMode() {
 
     if(isDark) {
         setDarkMode.checked = true;
-        localStorage.setItem('theme', 'light');
+        localStorage.setItem('theme', 'dark');
         document.getElementById('checkbox').setAttribute('checked', 'checked');
     } else {
         setDarkMode.checked = true;
-        localStorage.removeItem('theme', 'light');
+        localStorage.removeItem('theme', 'dark');
     }
 }
